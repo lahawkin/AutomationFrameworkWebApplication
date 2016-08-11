@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "GetInfo";
+}
+
+
+<h3>Please enter the location of the folder that contains the tests. </h3>
+
+<fieldset>
+
+    @using (Ajax.BeginForm("RunTestsResult", "Automation",
+                                            new AjaxOptions { UpdateTargetId = "divInterestDeatils" }))
+    {
+        <div id="tests-location">
+            @Html.TextBox("tests")
+        </div>
+        <button>Run</button>
+    }
+</fieldset>

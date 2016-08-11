@@ -1,0 +1,11 @@
+﻿body { color: black;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 300}
+/*h1{}
+input{}
+submit-button{}
+submission-area{}*/
+#page-wrap {
+     width: 800px;
+     margin: 0 auto;
+}
